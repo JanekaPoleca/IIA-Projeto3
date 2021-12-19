@@ -1,0 +1,624 @@
+ID,Age,Sex,ChestPainType,RestingBP,Cholesterol,FastingBS,RestingECG,MaxHR,ExerciseAngina,Oldpeak,ST_Slope,HeartDisease
+121,54,F,ATA,120,230,1,Normal,140,N,0,Up,Normal
+367,56,M,ATA,126,166,0,ST,140,N,0,Up,Normal
+161,49,M,NAP,140,187,0,Normal,172,N,0,Up,Normal
+483,61,M,ASY,141,292,0,ST,115,Y,1.7,Flat,Heart disease
+209,53,M,NAP,120,195,0,Normal,140,N,0,Up,Normal
+167,46,F,ASY,130,238,0,Normal,90,N,0,Up,Normal
+408,61,M,ASY,110,243,1,Normal,108,Y,2,Down,Heart disease
+237,51,F,NAP,150,200,0,Normal,120,N,0.5,Up,Normal
+613,42,M,TA,148,244,0,LVH,178,N,0.8,Up,Normal
+769,39,M,NAP,140,321,0,LVH,182,N,0,Up,Normal
+151,47,M,ATA,160,263,0,Normal,174,N,0,Up,Normal
+182,49,M,ASY,120,297,0,Normal,132,N,1,Flat,Normal
+667,57,M,ASY,132,207,0,Normal,168,Y,0,Up,Normal
+59,43,F,NAP,150,254,0,Normal,175,N,0,Up,Normal
+444,64,M,ASY,130,223,0,ST,128,N,0.5,Flat,Normal
+195,50,F,NAP,140,288,0,Normal,140,Y,0,Flat,Heart disease
+40,54,F,ATA,150,230,0,Normal,130,N,0,Up,Normal
+723,55,F,ATA,135,250,0,LVH,161,N,1.4,Flat,Normal
+273,47,M,ASY,110,243,1,ST,149,N,2.1,Up,Heart disease
+227,54,M,NAP,120,237,0,Normal,150,Y,1.5,Flat,Heart disease
+395,63,M,ASY,136,243,0,Normal,84,Y,0,Flat,Heart disease
+217,39,M,ATA,120,200,0,Normal,160,Y,1,Flat,Normal
+750,57,M,NAP,150,168,0,Normal,174,N,1.6,Up,Normal
+768,68,M,NAP,180,274,1,LVH,150,Y,1.6,Flat,Heart disease
+553,48,F,NAP,130,275,0,Normal,139,N,0.2,Up,Normal
+681,64,F,ASY,130,303,0,Normal,122,N,2,Flat,Normal
+546,64,M,TA,110,211,0,LVH,144,Y,1.8,Flat,Normal
+310,36,M,ASY,110,243,1,Normal,125,Y,1,Flat,Heart disease
+124,56,M,ASY,170,388,0,ST,122,Y,2,Flat,Heart disease
+343,57,M,ASY,160,243,1,Normal,98,Y,2,Flat,Heart disease
+803,64,M,TA,170,227,0,LVH,155,N,0.6,Flat,Normal
+652,54,M,NAP,125,273,0,LVH,152,N,0.5,Down,Normal
+283,41,M,ASY,125,243,1,Normal,176,N,1.6,Up,Heart disease
+351,47,M,NAP,110,243,1,Normal,120,Y,0,Flat,Heart disease
+169,52,M,ASY,140,404,0,Normal,124,Y,2,Flat,Heart disease
+300,62,M,TA,120,243,1,LVH,134,N,-0.8,Flat,Heart disease
+372,63,M,ASY,170,177,0,Normal,84,Y,2.5,Down,Heart disease
+34,43,F,ATA,150,186,0,Normal,154,N,0,Up,Normal
+671,51,M,TA,125,213,0,LVH,125,Y,1.4,Up,Normal
+565,59,M,TA,160,273,0,LVH,125,N,0,Up,Heart disease
+269,65,M,ASY,115,243,0,Normal,93,Y,0,Flat,Heart disease
+531,64,M,ASY,128,263,0,Normal,105,Y,0.2,Flat,Normal
+163,43,M,ASY,140,288,0,Normal,135,Y,2,Flat,Heart disease
+399,42,M,NAP,134,240,0,Normal,160,N,0,Up,Normal
+159,40,M,NAP,140,235,0,Normal,188,N,0,Up,Normal
+31,56,M,NAP,130,167,0,Normal,114,N,0,Up,Normal
+183,42,M,ATA,150,268,0,Normal,136,N,0,Up,Normal
+568,40,M,ASY,152,223,0,Normal,181,N,0,Up,Heart disease
+697,65,M,TA,138,282,1,LVH,174,N,1.4,Flat,Heart disease
+669,59,M,ASY,138,271,0,LVH,182,N,0,Up,Normal
+666,34,F,ATA,118,210,0,Normal,192,N,0.7,Up,Normal
+487,55,M,ASY,158,217,0,Normal,110,Y,2.5,Flat,Heart disease
+381,56,M,ASY,120,100,0,Normal,120,Y,1.5,Flat,Heart disease
+601,76,F,NAP,140,197,0,ST,116,N,1.1,Flat,Normal
+806,57,M,ATA,154,232,0,LVH,164,N,0,Up,Heart disease
+498,48,M,ASY,140,208,0,Normal,159,Y,1.5,Up,Heart disease
+457,56,M,ASY,130,243,0,LVH,122,Y,1,Flat,Heart disease
+120,48,F,ASY,108,163,0,Normal,175,N,2,Up,Normal
+621,54,M,ASY,110,206,0,LVH,108,Y,0,Flat,Heart disease
+127,49,M,NAP,115,265,0,Normal,175,N,0,Flat,Heart disease
+746,54,M,NAP,120,258,0,LVH,147,N,0.4,Flat,Normal
+626,64,F,NAP,140,313,0,Normal,133,N,0.2,Up,Normal
+80,52,M,ATA,160,196,0,Normal,165,N,0,Up,Normal
+479,54,M,NAP,133,203,0,ST,137,N,0.2,Up,Normal
+363,66,M,NAP,110,213,1,LVH,99,Y,1.3,Flat,Normal
+306,52,M,ASY,130,243,1,Normal,120,N,0,Flat,Heart disease
+625,58,M,ASY,100,234,0,Normal,156,N,0.1,Up,Heart disease
+192,35,M,ATA,120,308,0,LVH,180,N,0,Up,Normal
+22,49,F,ATA,124,201,0,Normal,164,N,0,Up,Normal
+181,62,F,TA,160,193,0,Normal,116,N,0,Up,Normal
+299,51,M,ASY,130,243,1,Normal,170,N,-0.7,Up,Heart disease
+646,66,F,TA,150,226,0,Normal,114,N,2.6,Down,Normal
+637,45,F,ATA,112,160,0,Normal,138,N,0,Flat,Normal
+122,42,M,NAP,120,228,0,Normal,152,Y,1.5,Flat,Normal
+814,58,F,ASY,170,225,1,LVH,146,Y,2.8,Flat,Heart disease
+509,58,M,ASY,160,256,1,LVH,113,Y,1,Up,Heart disease
+212,37,M,ASY,130,315,0,Normal,158,N,0,Up,Normal
+66,52,M,ASY,160,246,0,ST,82,Y,4,Flat,Heart disease
+446,50,M,ASY,144,349,0,LVH,120,Y,1,Up,Heart disease
+190,56,M,ATA,130,184,0,Normal,100,N,0,Up,Normal
+84,43,M,TA,120,291,0,ST,155,N,0,Flat,Heart disease
+242,47,M,NAP,140,193,0,Normal,145,Y,1,Flat,Heart disease
+155,48,M,ATA,140,238,0,Normal,118,N,0,Up,Normal
+734,60,F,NAP,102,318,0,Normal,160,N,0,Up,Normal
+700,67,M,ASY,100,299,0,LVH,125,Y,0.9,Flat,Heart disease
+571,46,M,ATA,101,197,1,Normal,156,N,0,Up,Normal
+101,34,M,ATA,150,214,0,ST,168,N,0,Up,Normal
+458,62,M,NAP,133,243,1,ST,119,Y,1.2,Flat,Heart disease
+796,57,M,ASY,140,192,0,Normal,148,N,0.4,Flat,Normal
+349,65,M,ASY,145,243,1,ST,67,N,0.7,Flat,Heart disease
+500,64,M,ASY,141,244,1,ST,116,Y,1.5,Flat,Heart disease
+819,55,F,ATA,132,342,0,Normal,166,N,1.2,Up,Normal
+426,62,M,ASY,135,297,0,Normal,130,Y,1,Flat,Heart disease
+94,41,M,ATA,125,269,0,Normal,144,N,0,Up,Normal
+580,65,F,NAP,140,417,1,LVH,157,N,0.8,Up,Normal
+650,57,M,ASY,152,274,0,Normal,88,Y,1.2,Flat,Heart disease
+448,45,M,NAP,130,236,0,Normal,144,N,0.1,Up,Normal
+245,34,M,ATA,98,220,0,Normal,150,N,0,Up,Normal
+344,38,M,ASY,135,243,1,Normal,150,N,0,Flat,Heart disease
+456,59,M,ASY,125,222,0,Normal,135,Y,2.5,Down,Heart disease
+362,55,M,ASY,142,228,0,ST,149,Y,2.5,Up,Heart disease
+788,58,F,NAP,120,340,0,Normal,172,N,0,Up,Normal
+289,59,M,NAP,125,243,1,Normal,175,N,2.6,Flat,Heart disease
+142,48,M,ATA,100,159,0,Normal,100,N,0,Up,Normal
+789,60,M,ASY,130,206,0,LVH,132,Y,2.4,Flat,Heart disease
+452,50,M,ASY,133,218,0,Normal,128,Y,1.1,Flat,Heart disease
+292,46,M,ASY,100,243,1,ST,133,N,-2.6,Flat,Heart disease
+45,37,M,ASY,120,223,0,Normal,168,N,0,Up,Normal
+779,44,M,ATA,130,219,0,LVH,188,N,0,Up,Normal
+332,60,M,ASY,160,243,0,ST,99,Y,0.5,Flat,Heart disease
+770,53,F,ASY,130,264,0,LVH,143,N,0.4,Flat,Normal
+370,57,M,ASY,128,243,1,ST,148,Y,1,Flat,Heart disease
+425,67,M,ASY,160,384,1,ST,130,Y,0,Flat,Heart disease
+26,53,M,ASY,124,260,0,ST,112,Y,3,Flat,Normal
+268,53,M,ASY,130,182,0,Normal,148,N,0,Up,Normal
+63,37,F,ATA,120,260,0,Normal,130,N,0,Up,Normal
+619,61,F,ASY,130,330,0,LVH,169,N,0,Up,Heart disease
+416,65,M,TA,140,252,0,Normal,135,N,0.3,Up,Normal
+807,58,F,ASY,130,197,0,Normal,131,N,0.6,Flat,Normal
+33,41,M,ASY,130,172,0,ST,130,N,2,Flat,Heart disease
+406,62,M,ATA,131,243,0,Normal,130,N,0.1,Up,Normal
+545,53,M,ASY,140,203,1,LVH,155,Y,3.1,Down,Heart disease
+118,54,M,ATA,120,246,0,Normal,110,N,0,Up,Normal
+15,54,F,ATA,120,273,0,Normal,150,N,1.5,Flat,Normal
+756,58,F,TA,150,283,1,LVH,162,N,1,Up,Normal
+42,35,M,ATA,150,264,0,Normal,168,N,0,Up,Normal
+570,44,M,NAP,130,233,0,Normal,179,Y,0.4,Up,Normal
+174,50,F,ASY,120,328,0,Normal,110,Y,1,Flat,Normal
+478,64,M,ASY,134,273,0,Normal,102,Y,4,Down,Heart disease
+694,50,F,ASY,110,254,0,LVH,159,N,0,Up,Normal
+632,63,M,ASY,130,254,0,LVH,147,N,1.4,Flat,Heart disease
+93,56,M,ASY,120,85,0,Normal,140,N,0,Up,Normal
+396,59,M,ASY,122,233,0,Normal,117,Y,1.3,Down,Heart disease
+374,63,M,ASY,126,243,0,ST,120,N,1.5,Down,Normal
+520,53,M,ASY,144,300,1,ST,128,Y,1.5,Flat,Heart disease
+591,60,F,TA,150,240,0,Normal,171,N,0.9,Up,Normal
+153,52,F,ATA,140,225,0,Normal,140,N,0,Up,Normal
+116,58,F,ATA,180,393,0,Normal,110,Y,1,Flat,Heart disease
+556,58,M,NAP,112,230,0,LVH,165,N,2.5,Flat,Heart disease
+821,63,M,ASY,140,187,0,LVH,144,Y,4,Up,Heart disease
+718,54,M,ASY,140,239,0,Normal,160,N,1.2,Up,Normal
+705,46,M,NAP,150,231,0,Normal,147,N,3.6,Flat,Heart disease
+18,60,M,ASY,100,248,0,Normal,125,N,1,Flat,Heart disease
+23,44,M,ATA,150,288,0,Normal,150,Y,3,Flat,Heart disease
+276,53,M,ASY,125,243,1,Normal,120,N,1.5,Up,Heart disease
+30,53,M,NAP,145,518,0,Normal,130,N,0,Flat,Heart disease
+604,45,M,ASY,104,208,0,LVH,148,Y,3,Flat,Normal
+0,40,M,ATA,140,289,0,Normal,172,N,0,Up,Normal
+72,55,M,ASY,140,268,0,Normal,128,Y,1.5,Flat,Heart disease
+802,59,M,TA,134,204,0,Normal,162,N,0.8,Up,Heart disease
+699,69,M,NAP,140,254,0,LVH,146,N,2,Flat,Heart disease
+375,60,M,ASY,152,243,0,ST,118,Y,0,Up,Normal
+639,41,M,ATA,110,235,0,Normal,153,N,0,Up,Normal
+115,46,M,ASY,110,240,0,ST,140,N,0,Up,Normal
+309,48,M,ASY,115,243,1,Normal,128,N,0,Flat,Heart disease
+427,63,M,ASY,130,308,0,Normal,138,Y,2,Flat,Heart disease
+584,61,M,ASY,138,166,0,LVH,125,Y,3.6,Flat,Heart disease
+564,61,M,ASY,140,207,0,LVH,138,Y,1.9,Up,Heart disease
+752,35,F,ASY,138,183,0,Normal,182,N,1.4,Up,Normal
+38,48,F,ATA,120,177,1,ST,148,N,0,Up,Normal
+24,40,M,NAP,130,215,0,Normal,138,N,0,Up,Normal
+702,34,M,TA,118,182,0,LVH,174,N,0,Up,Normal
+326,63,M,ASY,185,243,0,Normal,98,Y,0,Up,Heart disease
+199,30,F,TA,170,237,0,ST,170,N,0,Up,Normal
+205,48,F,NAP,120,195,0,Normal,125,N,0,Up,Normal
+320,56,M,NAP,120,243,0,Normal,97,N,0,Flat,Normal
+389,58,M,ASY,136,203,1,Normal,123,Y,1.2,Flat,Heart disease
+774,65,M,ASY,110,248,0,LVH,158,N,0.6,Up,Heart disease
+384,63,M,ASY,160,230,1,Normal,105,Y,1,Flat,Heart disease
+492,69,M,ASY,142,210,1,ST,112,Y,1.5,Flat,Heart disease
+771,62,F,ASY,140,268,0,LVH,160,N,3.6,Down,Heart disease
+311,53,M,ASY,120,243,1,Normal,120,N,0,Flat,Heart disease
+508,64,M,ASY,130,258,1,LVH,130,N,0,Flat,Heart disease
+804,66,F,NAP,146,278,0,LVH,152,N,0,Flat,Normal
+264,48,F,ATA,133,308,0,ST,156,N,2,Up,Normal
+514,61,M,NAP,140,284,0,Normal,123,Y,1.3,Flat,Heart disease
+387,60,M,ASY,140,281,0,ST,118,Y,1.5,Flat,Heart disease
+624,66,M,ASY,120,302,0,LVH,151,N,0.4,Flat,Normal
+308,59,M,ASY,120,243,0,Normal,115,N,0,Flat,Heart disease
+295,52,M,ASY,95,243,1,Normal,82,Y,0.8,Flat,Heart disease
+527,62,M,ATA,120,254,0,LVH,93,Y,0,Flat,Heart disease
+379,52,M,NAP,128,243,0,ST,180,N,3,Up,Heart disease
+499,69,M,NAP,142,271,0,LVH,126,N,0.3,Up,Normal
+282,65,M,ASY,155,243,0,Normal,154,N,1,Up,Normal
+728,68,M,NAP,118,277,0,Normal,151,N,1,Up,Normal
+148,54,M,ATA,160,195,0,ST,130,N,1,Up,Normal
+378,74,M,NAP,138,243,0,Normal,116,N,0.2,Up,Normal
+524,62,M,TA,135,139,0,ST,137,N,0.2,Up,Normal
+450,61,M,ATA,139,283,0,Normal,135,N,0.3,Up,Normal
+105,57,M,ASY,150,255,0,Normal,92,Y,3,Flat,Heart disease
+71,44,F,ASY,120,218,0,ST,115,N,0,Up,Normal
+114,52,F,NAP,125,272,0,Normal,139,N,0,Up,Normal
+234,53,F,NAP,120,274,0,Normal,130,N,0,Up,Normal
+675,40,M,ASY,110,167,0,LVH,114,Y,2,Flat,Heart disease
+691,58,M,ASY,128,259,0,LVH,130,Y,3,Flat,Heart disease
+402,56,M,ATA,124,224,1,Normal,161,N,2,Flat,Normal
+521,62,M,ASY,158,170,0,ST,138,Y,0,Flat,Heart disease
+563,48,M,ASY,130,256,1,LVH,150,Y,0,Up,Heart disease
+49,50,M,ASY,130,233,0,Normal,121,Y,2,Flat,Heart disease
+243,54,M,ATA,160,305,0,Normal,175,N,0,Up,Normal
+429,51,M,ASY,132,227,1,ST,138,N,0.2,Up,Normal
+302,63,M,ASY,140,243,1,LVH,149,N,2,Up,Heart disease
+278,51,F,ASY,120,243,1,Normal,127,Y,1.5,Up,Heart disease
+179,45,M,NAP,135,192,0,Normal,110,N,0,Up,Normal
+201,54,M,NAP,120,217,0,Normal,137,N,0,Up,Normal
+157,58,M,NAP,140,179,0,Normal,160,N,0,Up,Normal
+462,76,M,NAP,104,113,0,LVH,120,N,3.5,Down,Heart disease
+616,41,F,ATA,126,306,0,Normal,163,N,0,Up,Normal
+231,48,M,ASY,120,260,0,Normal,115,N,2,Flat,Heart disease
+805,39,F,NAP,138,220,0,Normal,152,N,0,Flat,Normal
+825,57,F,ASY,140,241,0,Normal,123,Y,0.2,Flat,Heart disease
+648,49,M,NAP,120,188,0,Normal,139,N,2,Flat,Heart disease
+658,63,F,ASY,108,269,0,Normal,169,Y,1.8,Flat,Heart disease
+818,67,M,NAP,152,212,0,LVH,150,N,0.8,Flat,Heart disease
+298,38,M,NAP,100,243,0,Normal,179,N,-1.1,Up,Normal
+679,50,F,NAP,120,219,0,Normal,158,N,1.6,Flat,Normal
+676,58,M,NAP,132,224,0,LVH,173,N,3.2,Up,Heart disease
+297,56,M,ASY,115,243,1,ST,82,N,-1,Up,Heart disease
+352,57,M,ASY,140,243,1,Normal,100,Y,0,Flat,Heart disease
+32,54,M,ASY,125,224,0,Normal,122,N,2,Flat,Heart disease
+469,68,M,TA,139,181,1,ST,135,N,0.2,Up,Normal
+386,52,M,NAP,122,243,0,Normal,110,Y,2,Down,Heart disease
+204,51,F,ASY,160,303,0,Normal,150,Y,1,Flat,Heart disease
+125,56,M,ASY,150,230,0,ST,124,Y,1.5,Flat,Heart disease
+175,53,M,ASY,180,285,0,ST,120,Y,1.5,Flat,Heart disease
+610,58,M,ASY,150,270,0,LVH,111,Y,0.8,Up,Heart disease
+560,37,F,NAP,120,215,0,Normal,170,N,0,Up,Normal
+235,55,F,ATA,130,394,0,LVH,150,N,0,Up,Normal
+110,38,M,ASY,120,282,0,Normal,170,N,0,Flat,Heart disease
+95,65,M,ASY,130,275,0,ST,115,Y,1,Flat,Heart disease
+668,64,M,ASY,145,212,0,LVH,132,N,2,Flat,Heart disease
+727,77,M,ASY,125,304,0,LVH,162,Y,0,Up,Heart disease
+20,43,F,TA,100,223,0,Normal,142,N,0,Up,Normal
+712,53,M,NAP,130,246,1,LVH,173,N,0,Up,Normal
+686,56,M,TA,120,193,0,LVH,162,N,1.9,Flat,Normal
+28,53,F,ATA,113,468,0,Normal,127,N,0,Up,Normal
+277,51,M,ASY,95,243,1,Normal,126,N,2.2,Flat,Heart disease
+683,46,F,ATA,105,204,0,Normal,172,N,0,Up,Normal
+284,34,M,ASY,115,243,1,Normal,154,N,0.2,Up,Heart disease
+455,63,M,ASY,110,252,0,ST,140,Y,2,Flat,Heart disease
+256,54,F,ATA,130,253,0,ST,155,N,0,Up,Normal
+184,53,M,ASY,120,246,0,Normal,116,Y,0,Flat,Heart disease
+398,59,M,NAP,131,243,0,Normal,128,Y,2,Down,Heart disease
+511,55,M,NAP,133,185,0,ST,136,N,0.2,Up,Normal
+757,52,M,TA,118,186,0,LVH,190,N,0,Flat,Normal
+211,37,F,ASY,130,173,0,ST,184,N,0,Up,Normal
+543,71,F,ASY,112,149,0,Normal,125,N,1.6,Flat,Normal
+89,39,F,NAP,110,182,0,ST,180,N,0,Up,Normal
+404,68,M,ASY,138,243,0,Normal,130,Y,3,Flat,Heart disease
+376,64,M,ASY,120,243,1,ST,106,N,2,Flat,Heart disease
+228,48,M,ASY,122,275,1,ST,150,Y,2,Down,Heart disease
+191,50,M,ASY,150,215,0,Normal,140,Y,0,Up,Normal
+706,67,M,ASY,125,254,1,Normal,163,N,0.2,Flat,Heart disease
+764,53,F,ASY,138,234,0,LVH,160,N,0,Up,Normal
+522,46,M,ASY,134,310,0,Normal,126,N,0,Flat,Heart disease
+760,45,M,ASY,115,260,0,LVH,185,N,0,Up,Normal
+673,53,M,ASY,123,282,0,Normal,95,Y,2,Flat,Heart disease
+651,65,F,NAP,160,360,0,LVH,151,N,0.8,Up,Normal
+766,47,M,NAP,138,257,0,LVH,156,N,0,Up,Normal
+607,56,M,ATA,120,236,0,Normal,178,N,0.8,Up,Normal
+27,52,M,ATA,120,284,0,Normal,118,N,0,Up,Normal
+491,72,M,ASY,160,123,1,LVH,130,N,1.5,Flat,Heart disease
+216,54,F,ATA,140,309,0,ST,140,N,0,Up,Normal
+248,45,M,ASY,120,225,0,Normal,140,N,0,Up,Normal
+189,31,F,ATA,100,219,0,ST,150,N,0,Up,Normal
+687,66,F,ASY,178,228,1,Normal,165,Y,1,Flat,Heart disease
+391,40,M,ASY,125,243,1,Normal,165,N,0,Flat,Heart disease
+505,63,M,ATA,136,165,0,ST,133,N,0.2,Up,Normal
+70,52,M,ASY,120,182,0,Normal,150,N,0,Flat,Heart disease
+287,56,M,ASY,140,243,1,Normal,121,Y,1.8,Up,Heart disease
+696,45,F,ASY,138,236,0,LVH,152,Y,0.2,Flat,Normal
+644,46,M,ASY,120,249,0,LVH,144,N,0.8,Up,Heart disease
+640,60,F,ASY,158,305,0,LVH,161,N,0,Up,Heart disease
+21,44,M,ATA,120,184,0,Normal,142,N,1,Flat,Normal
+810,55,F,ASY,128,205,0,ST,130,Y,2,Flat,Heart disease
+558,57,M,NAP,128,229,0,LVH,150,N,0.4,Flat,Heart disease
+599,57,F,ASY,120,354,0,Normal,163,Y,0.6,Up,Normal
+589,51,F,ASY,130,305,0,Normal,142,Y,1.2,Flat,Heart disease
+368,59,M,ASY,140,243,0,ST,117,Y,1,Flat,Heart disease
+335,54,M,ASY,120,243,0,Normal,155,N,0,Flat,Heart disease
+784,61,M,NAP,150,243,1,Normal,137,Y,1,Flat,Normal
+219,55,M,TA,140,295,0,Normal,136,N,0,Flat,Heart disease
+233,62,M,ATA,140,271,0,Normal,152,N,1,Up,Normal
+223,55,M,ATA,160,292,1,Normal,143,Y,2,Flat,Heart disease
+517,68,M,NAP,134,254,1,Normal,151,Y,0,Up,Normal
+414,55,M,ATA,110,214,1,ST,180,N,0.4,Up,Normal
+288,68,M,ASY,145,243,1,Normal,136,N,1.8,Up,Heart disease
+692,43,M,ASY,110,211,0,Normal,161,N,0,Up,Normal
+542,57,F,ASY,128,303,0,LVH,159,N,0,Up,Normal
+724,58,F,ASY,100,248,0,LVH,122,N,1,Flat,Normal
+160,53,M,ATA,140,320,0,Normal,162,N,0,Up,Normal
+585,60,F,NAP,120,178,1,Normal,96,N,0,Up,Normal
+366,60,M,NAP,120,243,1,Normal,141,Y,2,Up,Heart disease
+474,58,M,NAP,150,219,0,ST,118,Y,0,Flat,Heart disease
+347,61,M,NAP,200,243,1,ST,70,N,0,Flat,Heart disease
+801,52,M,ASY,128,204,1,Normal,156,Y,1,Flat,Heart disease
+532,74,F,ATA,120,269,0,LVH,121,Y,0.2,Up,Normal
+518,51,F,ASY,114,258,1,LVH,96,N,1,Up,Normal
+688,38,M,TA,120,231,0,Normal,182,Y,3.8,Flat,Heart disease
+482,57,M,ASY,144,270,1,ST,160,Y,2,Flat,Heart disease
+258,51,F,NAP,130,220,0,Normal,160,Y,2,Up,Normal
+593,57,M,ASY,150,276,0,LVH,112,Y,0.6,Flat,Heart disease
+52,41,F,ATA,130,245,0,Normal,150,N,0,Up,Normal
+816,56,M,ATA,130,221,0,LVH,163,N,0,Up,Normal
+533,65,M,ASY,120,177,0,Normal,140,N,0.4,Up,Normal
+333,50,M,ASY,115,243,0,Normal,120,Y,0.5,Flat,Heart disease
+583,41,F,ATA,105,198,0,Normal,168,N,0,Up,Normal
+104,59,F,ATA,130,188,0,Normal,124,N,1,Flat,Normal
+128,43,F,ATA,120,215,0,ST,175,N,0,Up,Normal
+815,58,M,ATA,125,220,0,Normal,144,N,0.4,Flat,Normal
+811,35,M,ATA,122,192,0,Normal,174,N,0,Up,Normal
+241,46,M,ASY,120,231,0,Normal,115,Y,0,Flat,Heart disease
+6,45,F,ATA,130,237,0,Normal,170,N,0,Up,Normal
+547,40,M,TA,140,199,0,Normal,178,Y,1.4,Up,Normal
+403,53,M,ASY,126,243,0,Normal,106,N,0,Flat,Heart disease
+682,51,F,NAP,130,256,0,LVH,149,N,0.5,Up,Normal
+551,47,M,ASY,112,204,0,Normal,143,N,0.1,Up,Normal
+783,71,F,ATA,160,302,0,Normal,162,N,0.4,Up,Normal
+61,46,M,ASY,120,277,0,Normal,125,Y,1,Flat,Heart disease
+526,58,M,ASY,140,385,1,LVH,135,N,0.3,Up,Normal
+445,61,M,ASY,120,282,0,ST,135,Y,4,Down,Heart disease
+62,50,F,ATA,110,202,0,Normal,145,N,0,Up,Normal
+37,41,F,ATA,110,250,0,ST,142,N,0,Up,Normal
+693,64,F,ASY,180,325,0,Normal,154,Y,0,Up,Normal
+587,62,M,ATA,120,281,0,LVH,103,N,1.4,Flat,Heart disease
+165,59,M,ATA,140,287,0,Normal,150,N,0,Up,Normal
+606,42,F,NAP,120,209,0,Normal,173,N,0,Flat,Normal
+738,59,M,TA,170,288,0,LVH,159,N,0.2,Flat,Heart disease
+649,54,M,ASY,122,286,0,LVH,116,Y,3.2,Flat,Heart disease
+400,63,F,ATA,132,243,0,Normal,130,N,0.1,Up,Normal
+730,60,M,ASY,125,258,0,LVH,141,Y,2.8,Flat,Heart disease
+12,39,M,ATA,120,204,0,Normal,145,N,0,Up,Normal
+772,51,F,NAP,140,308,0,LVH,142,N,1.5,Up,Normal
+581,63,F,ATA,140,195,0,Normal,179,N,0,Up,Normal
+439,43,M,ASY,122,243,0,Normal,120,N,0.5,Up,Heart disease
+286,74,M,ATA,145,243,1,ST,123,N,1.3,Up,Heart disease
+144,55,M,ASY,120,270,0,Normal,140,N,0,Up,Normal
+823,41,M,ATA,120,157,0,Normal,182,N,0,Up,Normal
+413,65,M,ASY,134,243,0,Normal,112,Y,1.1,Flat,Heart disease
+719,70,M,ASY,145,174,0,Normal,125,Y,2.6,Down,Heart disease
+605,39,F,NAP,94,199,0,Normal,179,N,0,Up,Normal
+477,58,M,NAP,137,232,0,ST,124,Y,1.4,Flat,Heart disease
+25,36,M,NAP,130,209,0,Normal,178,N,0,Up,Normal
+81,56,M,ASY,150,213,1,Normal,125,Y,1,Flat,Heart disease
+361,60,M,ASY,132,218,0,ST,140,Y,1.5,Down,Heart disease
+133,47,M,ASY,160,291,0,ST,158,Y,3,Flat,Heart disease
+1,49,F,NAP,160,180,0,Normal,156,N,1,Flat,Heart disease
+618,59,M,ATA,140,221,0,Normal,164,Y,0,Up,Normal
+19,36,M,ATA,120,267,0,Normal,160,N,3,Flat,Heart disease
+29,51,M,ATA,125,188,0,Normal,145,N,0,Up,Normal
+334,43,M,ASY,115,243,0,Normal,145,Y,2,Flat,Heart disease
+501,57,M,ATA,180,285,1,ST,120,N,0.8,Flat,Heart disease
+799,52,M,NAP,138,223,0,Normal,169,N,0,Up,Normal
+350,52,M,ASY,135,243,1,Normal,128,Y,2,Flat,Heart disease
+83,53,F,ATA,140,216,0,Normal,142,Y,2,Flat,Normal
+495,57,M,ASY,156,173,0,LVH,119,Y,3,Down,Heart disease
+330,65,M,ASY,160,243,1,ST,122,N,1.2,Flat,Heart disease
+53,52,F,ASY,130,180,0,Normal,140,Y,1.5,Flat,Normal
+830,38,M,NAP,138,175,0,Normal,173,N,0,Up,Normal
+173,58,M,ATA,130,251,0,Normal,110,N,0,Up,Normal
+436,63,M,ASY,160,267,1,ST,88,Y,2,Flat,Heart disease
+488,56,M,ASY,128,223,0,ST,119,Y,2,Down,Heart disease
+708,42,M,NAP,120,240,1,Normal,194,N,0.8,Down,Normal
+762,62,M,NAP,130,231,0,Normal,146,N,1.8,Flat,Normal
+466,48,M,ASY,132,272,0,ST,139,N,0.2,Up,Normal
+782,59,M,NAP,150,212,1,Normal,157,N,1.6,Up,Normal
+707,50,M,NAP,129,196,0,Normal,163,N,0,Up,Normal
+423,58,M,ASY,132,458,1,Normal,69,N,1,Down,Normal
+812,61,M,ASY,148,203,0,Normal,161,N,0,Up,Heart disease
+149,59,M,ASY,140,264,1,LVH,119,Y,0,Flat,Heart disease
+516,74,M,ASY,155,310,0,Normal,112,Y,1.5,Down,Heart disease
+218,41,M,ASY,120,336,0,Normal,118,Y,3,Flat,Heart disease
+494,67,M,ASY,146,369,0,Normal,110,Y,1.9,Flat,Heart disease
+464,70,M,ASY,170,192,0,ST,129,Y,3,Down,Heart disease
+143,40,M,ATA,130,275,0,Normal,150,N,0,Up,Normal
+126,61,F,ASY,130,294,0,ST,120,Y,1,Flat,Normal
+152,42,M,ATA,120,196,0,Normal,150,N,0,Up,Normal
+238,55,F,ATA,122,320,0,Normal,155,N,0,Up,Normal
+535,59,M,ASY,110,239,0,LVH,142,Y,1.2,Flat,Heart disease
+731,51,M,ASY,140,299,0,Normal,173,Y,1.6,Up,Heart disease
+247,47,F,NAP,130,235,0,Normal,145,N,2,Flat,Normal
+573,58,M,NAP,140,211,1,LVH,165,N,0,Up,Normal
+108,49,F,NAP,130,207,0,ST,135,N,0,Up,Normal
+383,54,M,ASY,130,243,0,ST,117,Y,1.4,Flat,Heart disease
+337,53,M,ASY,130,243,0,LVH,135,Y,1,Flat,Heart disease
+808,57,M,ASY,110,335,0,Normal,143,Y,3,Flat,Heart disease
+44,59,M,NAP,130,318,0,Normal,120,Y,1,Flat,Normal
+405,60,M,NAP,141,316,1,ST,122,Y,1.7,Flat,Heart disease
+662,54,M,NAP,150,232,0,LVH,165,N,1.6,Up,Normal
+506,58,M,ASY,100,213,0,ST,110,N,0,Up,Normal
+324,60,M,ASY,135,243,0,Normal,63,Y,0.5,Up,Heart disease
+739,51,M,NAP,125,245,1,LVH,166,N,2.4,Flat,Normal
+168,51,M,ATA,130,224,0,Normal,150,N,0,Up,Normal
+137,42,M,ATA,120,198,0,Normal,155,N,0,Up,Normal
+422,64,F,ASY,142,276,0,Normal,140,Y,1,Flat,Heart disease
+220,48,M,ASY,160,193,0,Normal,102,Y,3,Flat,Heart disease
+225,48,M,ASY,160,268,0,Normal,103,Y,1,Flat,Heart disease
+454,55,M,ASY,116,186,1,ST,102,N,0,Flat,Heart disease
+519,62,M,ASY,160,254,1,ST,108,Y,3,Flat,Heart disease
+704,51,M,ASY,140,298,0,Normal,122,Y,4.2,Flat,Heart disease
+579,52,M,ATA,128,205,1,Normal,184,N,0,Up,Normal
+355,62,M,ASY,150,243,1,ST,78,N,2,Flat,Heart disease
+642,42,M,ATA,120,295,0,Normal,162,N,0,Up,Normal
+136,39,M,ASY,110,273,0,Normal,132,N,0,Up,Normal
+620,54,M,ASY,124,266,0,LVH,109,Y,2.2,Flat,Heart disease
+710,41,M,ASY,110,172,0,LVH,158,N,0,Up,Heart disease
+627,50,F,ATA,120,244,0,Normal,162,N,1.1,Up,Normal
+759,39,M,ASY,118,219,0,Normal,140,N,1.2,Flat,Heart disease
+725,54,F,NAP,110,214,0,Normal,158,N,1.6,Flat,Normal
+754,62,F,NAP,130,263,0,Normal,97,N,1.2,Flat,Heart disease
+293,45,M,NAP,110,243,0,Normal,138,N,-0.1,Up,Normal
+785,55,M,ASY,132,353,0,Normal,132,Y,1.2,Flat,Heart disease
+10,37,F,NAP,130,211,0,Normal,142,N,0,Up,Normal
+798,53,F,NAP,128,216,0,LVH,115,N,0,Up,Normal
+540,44,M,NAP,140,235,0,LVH,180,N,0,Up,Normal
+251,45,F,ATA,180,295,0,Normal,180,N,0,Up,Normal
+207,55,M,ATA,120,256,1,Normal,137,N,0,Up,Normal
+393,41,M,ASY,104,243,0,ST,111,N,0,Up,Normal
+69,44,M,ATA,130,215,0,Normal,135,N,0,Up,Normal
+194,54,M,ASY,125,216,0,Normal,140,N,0,Flat,Heart disease
+572,59,M,NAP,126,218,1,Normal,134,N,2.2,Flat,Heart disease
+633,48,M,ASY,124,274,0,LVH,166,N,0.5,Flat,Heart disease
+112,34,M,TA,140,156,0,Normal,180,N,0,Flat,Heart disease
+325,66,M,ASY,150,243,0,Normal,108,Y,2,Flat,Heart disease
+612,57,M,ASY,110,201,0,Normal,126,Y,1.5,Flat,Normal
+312,56,M,ASY,120,243,0,ST,100,Y,-1,Down,Heart disease
+432,75,M,ASY,136,225,0,Normal,112,Y,3,Flat,Heart disease
+502,37,M,NAP,118,240,0,LVH,165,N,1,Flat,Normal
+341,61,M,ASY,130,243,0,LVH,115,N,0,Flat,Heart disease
+611,41,M,NAP,130,214,0,LVH,168,N,2,Flat,Normal
+736,64,M,NAP,125,309,0,Normal,131,Y,1.8,Flat,Heart disease
+507,61,M,ASY,190,287,1,LVH,150,Y,2,Down,Heart disease
+622,52,M,ASY,125,212,0,Normal,168,N,1,Up,Heart disease
+441,68,M,NAP,150,195,1,Normal,132,N,0,Flat,Heart disease
+281,57,M,ASY,95,243,1,Normal,182,N,0.7,Down,Heart disease
+407,51,M,ASY,132,218,1,LVH,139,N,0.1,Up,Normal
+187,46,M,NAP,120,230,0,Normal,150,N,0,Up,Normal
+442,65,M,ASY,150,235,0,Normal,120,Y,1.5,Flat,Heart disease
+634,51,M,NAP,100,222,0,Normal,143,Y,1.2,Flat,Normal
+656,52,M,ATA,134,201,0,Normal,158,N,0.8,Up,Normal
+459,74,M,ASY,150,258,1,ST,130,Y,4,Down,Heart disease
+92,39,M,NAP,160,147,1,Normal,160,N,0,Up,Normal
+410,56,M,NAP,170,243,0,LVH,123,Y,2.5,Flat,Heart disease
+574,49,M,NAP,118,149,0,LVH,126,N,0.8,Up,Heart disease
+813,58,M,ASY,114,318,0,ST,140,N,4.4,Down,Heart disease
+503,67,M,ASY,140,219,0,ST,122,Y,2,Flat,Heart disease
+475,75,M,ASY,160,310,1,Normal,112,Y,2,Down,Normal
+753,41,M,ATA,135,203,0,Normal,132,N,0,Flat,Normal
+557,71,F,NAP,110,265,1,LVH,130,N,0,Up,Normal
+130,54,M,ASY,140,166,0,Normal,118,Y,0,Flat,Heart disease
+758,61,F,ASY,145,307,0,LVH,146,Y,1,Flat,Heart disease
+562,50,M,ASY,144,200,0,LVH,126,Y,0.9,Flat,Heart disease
+609,35,M,ASY,120,198,0,Normal,130,Y,1.6,Flat,Heart disease
+197,56,F,NAP,130,219,0,ST,164,N,0,Up,Normal
+215,41,M,ASY,112,250,0,Normal,142,N,0,Up,Normal
+701,68,F,NAP,120,211,0,LVH,115,N,1.5,Flat,Normal
+824,59,M,ASY,164,176,1,LVH,90,N,1,Flat,Heart disease
+749,65,M,ASY,135,254,0,LVH,127,N,2.8,Flat,Heart disease
+481,59,M,ASY,140,274,0,Normal,154,Y,2,Flat,Normal
+575,44,M,ASY,110,197,0,LVH,177,N,0,Up,Heart disease
+471,62,M,NAP,120,220,0,LVH,86,N,0,Up,Normal
+440,63,M,NAP,130,243,1,ST,160,N,3,Flat,Normal
+685,45,M,ATA,128,308,0,LVH,170,N,0,Up,Normal
+257,60,M,NAP,120,246,0,LVH,135,N,0,Up,Normal
+428,69,M,ASY,140,208,0,ST,140,Y,2,Flat,Heart disease
+793,52,M,NAP,172,199,1,Normal,162,N,0.5,Up,Normal
+497,51,M,ASY,131,152,1,LVH,130,Y,1,Flat,Heart disease
+635,60,F,ASY,150,258,0,LVH,157,N,2.6,Flat,Heart disease
+490,64,M,ASY,150,193,0,ST,135,Y,0.5,Flat,Heart disease
+665,56,M,ASY,125,249,1,LVH,144,Y,1.2,Flat,Heart disease
+460,57,M,ASY,110,197,0,LVH,100,N,0,Up,Normal
+76,49,M,ASY,130,206,0,Normal,170,N,0,Flat,Heart disease
+552,54,F,ATA,132,288,1,LVH,159,Y,0,Up,Normal
+729,58,M,ASY,125,300,0,LVH,171,N,0,Up,Heart disease
+735,58,M,NAP,105,240,0,LVH,154,Y,0.6,Flat,Normal
+65,32,M,ATA,110,225,0,Normal,184,N,0,Up,Normal
+773,60,M,ASY,130,253,0,Normal,144,Y,1.4,Up,Heart disease
+206,33,M,NAP,120,298,0,Normal,185,N,0,Up,Normal
+8,37,M,ASY,140,207,0,Normal,130,Y,1.5,Flat,Heart disease
+77,55,M,NAP,110,277,0,Normal,160,N,0,Up,Normal
+721,35,M,ASY,126,282,0,LVH,156,Y,0,Up,Heart disease
+58,49,M,ATA,100,253,0,Normal,174,N,0,Up,Normal
+472,71,M,NAP,144,221,0,Normal,108,Y,1.8,Flat,Heart disease
+424,61,M,ASY,146,241,0,Normal,148,Y,3,Down,Heart disease
+377,63,M,NAP,130,243,0,ST,111,Y,0,Flat,Heart disease
+480,54,M,ATA,132,182,0,ST,141,N,0.1,Up,Normal
+496,69,M,ASY,145,289,1,ST,110,Y,1.8,Flat,Heart disease
+631,57,M,ASY,165,289,1,LVH,124,N,1,Flat,Heart disease
+800,43,M,ASY,132,247,1,LVH,143,Y,0.1,Flat,Heart disease
+319,56,M,NAP,155,243,0,ST,99,N,0,Flat,Heart disease
+364,66,M,NAP,120,243,0,ST,120,N,-0.5,Up,Normal
+412,58,M,ASY,120,243,0,LVH,106,Y,1.5,Down,Heart disease
+141,39,M,ATA,130,215,0,Normal,120,N,0,Up,Normal
+88,52,F,ATA,120,210,0,Normal,148,N,0,Up,Normal
+647,56,M,ASY,130,283,1,LVH,103,Y,1.6,Down,Heart disease
+323,57,M,ASY,140,243,0,Normal,120,Y,2,Flat,Heart disease
+321,64,F,ASY,200,243,0,Normal,140,Y,1,Flat,Heart disease
+60,45,M,ASY,140,224,0,Normal,144,N,0,Up,Normal
+486,38,M,ASY,110,289,0,Normal,105,Y,1.5,Down,Heart disease
+385,55,M,NAP,132,243,0,Normal,155,N,1.5,Flat,Heart disease
+419,49,M,TA,130,243,0,ST,145,N,3,Flat,Heart disease
+433,40,M,NAP,106,240,0,Normal,80,Y,0,Up,Normal
+301,72,M,NAP,160,243,0,LVH,114,N,1.6,Flat,Normal
+809,47,M,NAP,130,253,0,Normal,179,N,0,Up,Normal
+296,60,M,NAP,115,243,1,Normal,143,N,2.4,Up,Heart disease
+315,46,M,ASY,115,243,0,Normal,113,Y,1.5,Flat,Heart disease
+775,65,F,NAP,155,269,0,Normal,148,N,0.8,Up,Normal
+46,50,M,ATA,140,216,0,Normal,170,N,0,Up,Normal
+86,49,F,ATA,110,208,0,Normal,160,N,0,Up,Normal
+109,33,F,ASY,100,246,0,Normal,150,Y,1,Flat,Heart disease
+360,44,M,ASY,130,209,0,ST,127,N,0,Up,Normal
+645,56,F,ASY,200,288,1,LVH,133,Y,4,Down,Heart disease
+16,38,M,ASY,110,196,0,Normal,166,N,0,Flat,Heart disease
+493,56,M,ASY,137,282,1,Normal,126,Y,1.2,Flat,Heart disease
+193,28,M,ATA,130,132,0,LVH,185,N,0,Up,Normal
+792,48,M,ATA,110,229,0,Normal,168,N,1,Down,Heart disease
+628,44,F,NAP,108,141,0,Normal,175,N,0.6,Flat,Normal
+401,62,M,ASY,152,153,0,ST,97,Y,1.6,Up,Heart disease
+539,53,M,ASY,142,226,0,LVH,111,Y,0,Up,Normal
+438,62,M,TA,112,258,0,ST,150,Y,1.3,Flat,Heart disease
+140,54,M,ASY,130,603,1,Normal,125,Y,1,Flat,Heart disease
+198,47,M,ASY,150,226,0,Normal,98,Y,1.5,Flat,Heart disease
+467,48,M,NAP,132,220,1,ST,162,N,0,Flat,Heart disease
+14,42,F,NAP,115,211,0,ST,137,N,0,Up,Normal
+87,39,M,ASY,130,307,0,Normal,140,N,0,Up,Normal
+265,36,M,ATA,120,166,0,Normal,180,N,0,Up,Normal
+262,59,M,ASY,140,169,0,Normal,140,N,0,Up,Normal
+222,54,M,ASY,200,198,0,Normal,142,Y,2,Flat,Heart disease
+259,55,F,ATA,110,344,0,ST,160,N,0,Up,Normal
+3,48,F,ASY,138,214,0,Normal,108,Y,1.5,Flat,Heart disease
+354,53,M,NAP,160,243,1,LVH,122,Y,0,Flat,Heart disease
+489,69,M,ASY,140,110,1,Normal,109,Y,1.5,Flat,Heart disease
+615,59,M,TA,178,270,0,LVH,145,N,4.2,Down,Normal
+473,53,M,NAP,155,175,1,ST,160,N,0.3,Up,Normal
+661,64,M,ASY,120,246,0,LVH,96,Y,2.2,Down,Heart disease
+139,50,M,ATA,120,168,0,Normal,160,N,0,Up,Normal
+67,44,M,ASY,150,412,0,Normal,170,N,0,Up,Normal
+515,61,M,NAP,120,337,0,Normal,98,Y,0,Flat,Heart disease
+342,38,M,ASY,150,243,1,Normal,120,Y,0.7,Flat,Heart disease
+56,58,M,NAP,130,213,0,ST,140,N,0,Flat,Heart disease
+304,43,M,ASY,100,243,1,Normal,122,N,1.5,Down,Heart disease
+745,51,M,NAP,94,227,0,Normal,154,Y,0,Up,Normal
+51,45,M,ATA,140,224,1,Normal,122,N,0,Up,Normal
+513,57,M,ASY,130,207,0,ST,96,Y,1,Flat,Normal
+465,61,F,ATA,140,298,1,Normal,120,Y,0,Up,Normal
+530,57,M,ATA,124,261,0,Normal,141,N,0.3,Up,Heart disease
+305,61,M,ASY,110,243,1,Normal,113,N,1.4,Flat,Heart disease
+434,58,M,ASY,110,198,0,Normal,110,N,0,Flat,Heart disease
+537,63,F,ASY,150,407,0,LVH,154,N,4,Flat,Heart disease
+695,53,M,NAP,130,197,1,LVH,152,N,1.2,Down,Normal
+357,56,M,NAP,125,243,1,Normal,98,N,-2,Flat,Heart disease
+186,47,M,TA,110,249,0,Normal,150,N,0,Up,Normal
+555,51,F,NAP,120,295,0,LVH,157,N,0.6,Up,Normal
+129,39,M,ATA,120,241,0,ST,146,N,2,Up,Normal
+359,63,M,ASY,140,260,0,ST,112,Y,3,Flat,Heart disease
+244,52,M,ASY,130,298,0,Normal,110,Y,1,Flat,Heart disease
+255,57,F,ASY,180,347,0,ST,126,Y,0.8,Flat,Normal
+390,59,M,ASY,154,243,0,ST,131,Y,1.5,Up,Normal
+720,54,M,ATA,108,309,0,Normal,156,N,0,Up,Normal
+154,46,M,TA,140,272,1,Normal,175,N,2,Flat,Heart disease
+371,62,M,ASY,120,220,0,ST,86,N,0,Up,Normal
+829,57,F,ATA,130,236,0,LVH,174,N,0,Flat,Heart disease
+582,45,F,ATA,130,234,0,LVH,175,N,0.6,Flat,Normal
+790,58,M,ATA,120,284,0,LVH,160,N,1.8,Flat,Heart disease
+158,29,M,ATA,120,243,0,Normal,160,N,0,Up,Normal
+765,43,M,ASY,120,177,0,LVH,120,Y,2.5,Flat,Heart disease
+786,64,M,NAP,140,335,0,Normal,158,N,0,Up,Heart disease
+271,50,M,ASY,145,243,1,Normal,139,Y,0.7,Flat,Heart disease
+484,41,M,ASY,150,171,0,Normal,128,Y,1.5,Flat,Normal
+146,38,M,ASY,110,190,0,Normal,150,Y,1,Flat,Heart disease
+717,70,M,NAP,160,269,0,Normal,112,Y,2.9,Flat,Heart disease
+394,57,M,ASY,139,277,1,ST,118,Y,1.9,Flat,Heart disease
+418,75,M,ASY,170,203,1,ST,108,N,0,Flat,Heart disease
+576,66,M,ATA,160,246,0,Normal,120,Y,0,Flat,Heart disease
+822,63,F,ASY,124,197,0,Normal,136,Y,0,Flat,Heart disease
+680,54,F,NAP,108,267,0,LVH,167,N,0,Up,Normal
+588,57,M,NAP,150,126,1,Normal,173,N,0.2,Up,Normal
+290,63,M,ASY,100,243,1,Normal,109,N,-0.9,Flat,Heart disease
+411,69,M,NAP,140,243,1,ST,118,N,2.5,Down,Heart disease
+630,49,F,ASY,130,269,0,Normal,163,N,0,Up,Normal
+213,40,M,NAP,130,281,0,Normal,167,N,0,Up,Normal
+358,54,M,ASY,130,243,1,Normal,110,Y,3,Flat,Heart disease
+180,41,F,ATA,125,184,0,Normal,180,N,0,Up,Normal
+380,51,M,ASY,128,243,1,ST,125,Y,1.2,Flat,Heart disease
+99,57,M,ATA,140,260,1,Normal,140,N,0,Up,Normal
+135,56,F,ATA,120,279,0,Normal,150,N,1,Flat,Heart disease
+176,46,M,ASY,180,280,0,ST,120,N,0,Up,Normal
+504,74,M,NAP,140,237,1,Normal,94,N,0,Flat,Heart disease
+559,66,M,ASY,160,228,0,LVH,138,N,2.3,Up,Normal
+596,44,F,NAP,118,242,0,Normal,149,N,0.3,Flat,Normal
+827,68,M,ASY,144,193,1,Normal,141,N,3.4,Flat,Heart disease
+39,48,F,ASY,150,227,0,Normal,130,Y,1,Flat,Normal
+340,70,M,ASY,115,243,0,ST,92,Y,0,Flat,Heart disease
+2,37,M,ATA,130,283,0,ST,98,N,0,Up,Normal
+451,49,M,NAP,131,142,0,Normal,127,Y,1.5,Flat,Heart disease
+68,57,M,ATA,140,265,0,ST,145,Y,1,Flat,Heart disease
+208,50,M,ASY,145,264,0,Normal,150,N,0,Flat,Heart disease
+608,58,M,ASY,146,218,0,Normal,105,N,2,Flat,Heart disease
+420,51,M,NAP,137,339,0,Normal,127,Y,1.7,Flat,Heart disease
+253,51,M,NAP,135,160,0,Normal,150,N,2,Flat,Heart disease
+339,51,M,ASY,140,243,0,Normal,60,N,0,Flat,Heart disease
+409,57,M,ASY,130,311,1,ST,148,Y,2,Flat,Heart disease
+111,35,F,TA,120,160,0,ST,185,N,0,Up,Normal
+224,43,F,ATA,120,266,0,Normal,118,N,0,Up,Normal
+544,46,M,ASY,140,311,0,Normal,120,Y,1.8,Flat,Heart disease
+73,46,M,NAP,150,163,0,Normal,116,N,0,Up,Normal
+47,36,M,NAP,112,340,0,Normal,184,N,1,Flat,Normal
+638,55,F,ASY,180,327,0,ST,117,Y,3.4,Flat,Heart disease
+113,47,F,NAP,135,248,1,Normal,170,N,0,Flat,Heart disease
+96,51,M,ASY,130,179,0,Normal,100,N,0,Up,Normal
+737,37,M,NAP,130,250,0,Normal,187,N,3.5,Down,Normal
+214,38,F,ATA,120,275,0,Normal,129,N,0,Up,Normal
+569,62,F,ASY,124,209,0,Normal,163,N,0,Up,Normal
+123,38,M,NAP,145,292,0,Normal,130,N,0,Up,Normal
+106,47,M,ASY,140,276,1,Normal,125,Y,0,Up,Normal
+595,58,F,ATA,136,319,1,LVH,152,N,0,Up,Heart disease
+17,43,F,ATA,120,201,0,Normal,165,N,0,Up,Normal
+742,29,M,ATA,130,204,0,LVH,202,N,0,Up,Normal
+98,40,M,ASY,120,466,1,Normal,152,Y,1,Flat,Heart disease
+322,61,M,ASY,150,243,0,Normal,117,Y,2,Flat,Heart disease
+382,55,M,NAP,136,228,0,ST,124,Y,1.6,Flat,Heart disease
+365,60,M,NAP,180,243,0,ST,140,Y,1.5,Flat,Normal
+510,57,M,ASY,122,264,0,LVH,100,N,0,Flat,Heart disease
