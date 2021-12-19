@@ -11,15 +11,22 @@ import numpy as np
 import matplotlib.pyplot as plt # gráficos
 from utilsAA import * # módulo distribuido com o guião com funções auxiliares
 
+
+
+
 #load csv
 table_x, table_y, attributes, classes = load_data("heart.csv")
 
+#remove id
+table_x = table_x[:,1:]
+attributes = attributes[1:]
+
 #encode string attributes
-table_x[:,2] = encode_feature(table_x[:,2]) #Sex
-table_x[:,3] = encode_feature(table_x[:,3]) #ChestPainType
-table_x[:,7] = encode_feature(table_x[:,7]) #RestingECG
-table_x[:,9] = encode_feature(table_x[:,9]) #ExerciseAngina
-table_x[:,11] = encode_feature(table_x[:,11]) #ST_Slope
+table_x[:,1] = encode_feature(table_x[:,1]) #Sex
+table_x[:,2] = encode_feature(table_x[:,2]) #ChestPainType
+table_x[:,6] = encode_feature(table_x[:,6]) #RestingECG
+table_x[:,8] = encode_feature(table_x[:,8]) #ExerciseAngina
+table_x[:,10] = encode_feature(table_x[:,10]) #ST_Slope
 
 #create dictionary
 heart_data = Bunch(data=table_x, target=table_y, data_names=attributes, class_names=classes)
