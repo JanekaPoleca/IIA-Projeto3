@@ -1,3 +1,41 @@
-#TODO
-#Import csv to a Bunch Object
-#Divide data in train data and test data
+from utilsAA import *
+from sklearn.utils import Bunch
+
+
+from sklearn.datasets import load_iris, load_breast_cancer # conjuntos de dados
+from sklearn.tree import DecisionTreeClassifier, plot_tree # árvore de decisão
+from sklearn.neighbors import KNeighborsClassifier # k-NN
+from sklearn.model_selection import train_test_split, cross_val_score # cross-validation
+from sklearn.preprocessing import StandardScaler # normalização dos atributos
+import numpy as np 
+import matplotlib.pyplot as plt # gráficos
+from utilsAA import * # módulo distribuido com o guião com funções auxiliares
+
+#load csv
+table_x, table_y, attributes, classes = load_data("heart.csv")
+
+#encode string attributes
+table_x[:,2] = encode_feature(table_x[:,2]) #Sex
+table_x[:,3] = encode_feature(table_x[:,3]) #ChestPainType
+table_x[:,7] = encode_feature(table_x[:,7]) #RestingECG
+table_x[:,9] = encode_feature(table_x[:,9]) #ExerciseAngina
+table_x[:,11] = encode_feature(table_x[:,11]) #ST_Slope
+
+#create dictionary
+heart_data = Bunch(data=table_x, target=table_y, data_names=attributes, class_names=classes)
+
+#split data in train and test models
+train_x, test_x, train_y, test_y = train_test_split(heart_data.data, heart_data.target, random_state=5)
+
+#create dictionaries from train and test models
+heart_train = Bunch(data=train_x, target=train_y, data_names=attributes, class_names=classes)
+heart_test = Bunch(data=test_x, target=test_y, data_names=attributes, class_names=classes)
+
+#create decision tree
+dtc = DecisionTreeClassifier(criterion="entropy", max_depth=None, min_samples_split=2, min_samples_leaf=1)
+dtc.fit(heart_train.data, heart_train.target)
+
+
+plt.figure(figsize=[20,15])
+plot_tree(dtc, feature_names=heart_train.data_names, class_names=heart_train.class_names, filled=True, rounded=True)
+plt.show()
