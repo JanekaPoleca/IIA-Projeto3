@@ -3,7 +3,6 @@ from utilsAA import *
 from sklearn.utils import Bunch
 
 
-from sklearn.datasets import load_iris, load_breast_cancer # conjuntos de dados
 from sklearn.tree import DecisionTreeClassifier, plot_tree # árvore de decisão
 from sklearn.neighbors import KNeighborsClassifier # k-NN
 from sklearn.model_selection import train_test_split, cross_val_score # cross-validation
@@ -72,6 +71,48 @@ dtc = DecisionTreeClassifier(criterion="entropy", min_samples_leaf= opt_leaf, mi
 dtc.fit(heart_train.data, heart_train.target)
 print('Accuracy train:', dtc.score(heart_train.data, heart_train.target))
 print('Accuracy test:', dtc.score(heart_test.data, heart_test.target))
+
+#Normalize k-NN
+scaler = StandardScaler()
+scaler.fit(heart_data.data)
+standard_heart_data = scaler.transform(heart_data.data)
+
+scaler.fit(heart_train.data)
+standard_heart_train = scaler.transform(heart_train.data)
+
+scaler.fit(heart_test.data)
+standard_heart_test = scaler.transform(heart_test.data)
+
+#get optimal n_neighbors
+opt_n_neighbors = 0
+avg = 0
+for i in range(1,50):
+    clf = KNeighborsClassifier(n_neighbors=i)
+    scores = cross_val_score(spl, X=standard_heart_data, y=heart_data.target,cv=10)
+    if np.mean(scores) > avg:
+        avg = np.mean(scores)
+        opt_n_neighbors = i
+
+#get optimal n_p
+opt_p = 0
+avg = 0
+for i in range(1,50):
+    clf = KNeighborsClassifier(p=i)
+    scores = cross_val_score(spl, X=standard_heart_data, y=heart_data.target,cv=10)
+    if np.mean(scores) > avg:
+        avg = np.mean(scores)
+        opt_p = i
+
+#k-NN
+opt_n_neighbors = 5
+opt_p = 2
+clf = KNeighborsClassifier(n_neighbors=opt_n_neighbors, p=opt_p)
+clf.fit(standard_heart_train,heart_train.target)
+print('Accuracy train:', dtc.score(standard_heart_train, heart_train.target))
+print('Accuracy test:', dtc.score(standard_heart_test, heart_test.target))
+
+
+
 
 
 #Draw decision tree (not working??)
