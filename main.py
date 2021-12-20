@@ -40,9 +40,10 @@ heart_test = Bunch(data=test_x, target=test_y, data_names=attributes, target_nam
 
 #create decision tree
 dtc = DecisionTreeClassifier(criterion="entropy", max_depth=None, min_samples_split=2, min_samples_leaf=1)
-dtc.fit(heart_train.data, heart_train.target)
 
+dtc.fit(train_x, train_y)
 
+dtc.score(test_x, test_y)
 
 
 
@@ -50,3 +51,10 @@ dtc.fit(heart_train.data, heart_train.target)
 plt.figure(figsize=[20,15])
 plot_tree(dtc, feature_names=heart_train.data_names, class_names=heart_train.target_names, filled=True, rounded=True)
 plt.show()
+
+
+scores = cross_val_score(dtc,
+                         X=heart_train.data,
+                         y=heart_train.target,
+                         cv=10
+                        )
