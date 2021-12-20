@@ -1,3 +1,4 @@
+from numpy.core.numeric import cross
 from utilsAA import *
 from sklearn.utils import Bunch
 
@@ -21,10 +22,10 @@ attributes = attributes[1:]
 
 #encode string attributes
 table_x[:,1] = encode_feature(table_x[:,1]) #Sex
-table_x[:,2] = encode_feature(table_x[:,2]) #ChestPainType
-table_x[:,6] = encode_feature(table_x[:,6]) #RestingECG
 table_x[:,8] = encode_feature(table_x[:,8]) #ExerciseAngina
-table_x[:,10] = encode_feature(table_x[:,10]) #ST_Slope
+table_x, attributes = one_hot_encode_feature(table_x, 2, attributes) #ChestPainType
+table_x, attributes = one_hot_encode_feature(table_x, 5, attributes) #RestingECG
+table_x, attributes = one_hot_encode_feature(table_x, 8, attributes) #ST_Slope
 
 #create dictionary
 heart_data = Bunch(data=table_x, target=table_y, data_names=attributes, target_names=classes)
@@ -36,12 +37,44 @@ train_x, test_x, train_y, test_y = train_test_split(heart_data.data, heart_data.
 heart_train = Bunch(data=train_x, target=train_y, data_names=attributes, target_names=classes)
 heart_test = Bunch(data=test_x, target=test_y, data_names=attributes, target_names=classes)
 
+#get optimal min_samples_split
+opt_split = 0
+avg = 0
+for i in range(2,100):
+    spl = DecisionTreeClassifier(criterion='entropy', min_samples_split=i)
+    scores = cross_val_score(spl, X=heart_data.data, y=heart_data.target,cv=10)
+    if np.mean(scores) > avg:
+        avg = np.mean(scores)
+        opt_split = i
+
+#get optimal min_samples_leaf
+opt_leaf = 0
+avg = 0
+for i in range(1,21):
+    spl = DecisionTreeClassifier(criterion='entropy', min_samples_split=opt_split, min_samples_leaf=i)
+    scores = cross_val_score(spl, X=heart_data.data, y=heart_data.target,cv=10)
+    if np.mean(scores) > avg:
+        avg = np.mean(scores)
+        opt_leaf = i
+
+#get optimal max_depth
+opt_depth = 0
+avg = 0
+for i in range(1,25):
+    spl = DecisionTreeClassifier(criterion='entropy', min_samples_split=opt_split, min_samples_leaf=opt_leaf, max_depth=i)
+    scores = cross_val_score(spl, X=heart_data.data, y=heart_data.target,cv=10)
+    if np.mean(scores) > avg:
+        avg = np.mean(scores)
+        opt_depth = i
+
 #create decision tree
-dtc = DecisionTreeClassifier(criterion="entropy", max_depth=None, min_samples_split=2, min_samples_leaf=1)
+dtc = DecisionTreeClassifier(criterion="entropy", min_samples_leaf= opt_leaf, min_samples_split= opt_split, max_depth= opt_depth)
 dtc.fit(heart_train.data, heart_train.target)
+print('Accuracy train:', dtc.score(heart_train.data, heart_train.target))
+print('Accuracy test:', dtc.score(heart_test.data, heart_test.target))
 
 
 #Draw decision tree (not working??)
-plt.figure(figsize=[20,15])
-plot_tree(dtc, feature_names=heart_train.data_names, class_names=heart_train.target_names, filled=True, rounded=True)
-plt.show()
+#plt.figure(figsize=[20,15])
+#plot_tree(dtc, feature_names=heart_train.data_names, class_names=heart_train.target_names, filled=True, rounded=True)
+#plt.show()
