@@ -48,5 +48,5 @@ dtc.fit(heart_train.data, heart_train.target)
 
 #Draw decision tree (not working??)
 plt.figure(figsize=[20,15])
-plot_tree(dtc, feature_names=heart_train.data_names, target_names=heart_train.target_names, filled=True, rounded=True)
+plot_tree(dtc, feature_names=heart_train.data_names, class_names=heart_train.target_names, filled=True, rounded=True)
 plt.show()
