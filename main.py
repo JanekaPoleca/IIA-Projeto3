@@ -83,39 +83,21 @@ standard_heart_train = scaler.transform(heart_train.data)
 scaler.fit(heart_test.data)
 standard_heart_test = scaler.transform(heart_test.data)
 
-#get optimal n_neighbors
-opt_n_neighbors = 0
-avg = 0
-for i in range(1,50):
-    clf = KNeighborsClassifier(n_neighbors=i)
-    scores = cross_val_score(spl, X=standard_heart_data, y=heart_data.target,cv=10)
-    if np.mean(scores) > avg:
-        avg = np.mean(scores)
-        opt_n_neighbors = i
-
-#get optimal n_p
+#get optimal params
+opt_n_neighbours = 0
 opt_p = 0
 avg = 0
-for i in range(1,50):
-    clf = KNeighborsClassifier(p=i)
-    scores = cross_val_score(spl, X=standard_heart_data, y=heart_data.target,cv=10)
-    if np.mean(scores) > avg:
-        avg = np.mean(scores)
-        opt_p = i
+for i in range(1,20):
+    for j in range(1,20):
+        clf = KNeighborsClassifier(n_neighbours=i, p=j)
+        scores = cross_val_score(clf, X=standard_heart_data, y=heart_data.target,cv=10)
+        if np.mean(scores) > avg:
+            avg = np.mean(scores)
+            opt_p = j
+            opt_n_neighbours = i
 
 #k-NN
-opt_n_neighbors = 5
-opt_p = 2
-clf = KNeighborsClassifier(n_neighbors=opt_n_neighbors, p=opt_p)
+clf = KNeighborsClassifier(n_neighbours=opt_n_neighbours, p=opt_p)
 clf.fit(standard_heart_train,heart_train.target)
-print('Accuracy train:', dtc.score(standard_heart_train, heart_train.target))
-print('Accuracy test:', dtc.score(standard_heart_test, heart_test.target))
-
-
-
-
-
-#Draw decision tree (not working??)
-#plt.figure(figsize=[20,15])
-#plot_tree(dtc, feature_names=heart_train.data_names, class_names=heart_train.target_names, filled=True, rounded=True)
-#plt.show()
+print('Accuracy train:', clf.score(standard_heart_train, heart_train.target))
+print('Accuracy test:', clf.score(standard_heart_test, heart_test.target))
